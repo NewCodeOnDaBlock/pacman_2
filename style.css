@@ -109,3 +109,17 @@ div.cherry {
 
 }
 
+div#pacman-walking, #pacman-walking2, #pacman-walking3, #pacman-walking4, #pacman-walking5, #pacman-walking6 {
+
+    background: url(/image/walking_pacman.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+
+}
+
+
+

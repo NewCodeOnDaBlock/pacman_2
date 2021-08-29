@@ -71,6 +71,30 @@ let creditsound = document.querySelector("#credit-sound");
 let fruitsound = document.querySelector("#fruit-sound");
 let winsong = document.querySelector("#win-song");
 let yaysound = document.querySelector("#yay");
+let pacmanwalking = document.querySelector("#pacman-walking");
+let pacmanwalking2 = document.querySelector("#pacman-walking2");
+let pacmanwalking3 = document.querySelector("#pacman-walking3");
+let pacmanwalking4 = document.querySelector("#pacman-walking4");
+let pacmanwalking5 = document.querySelector("#pacman-walking5");
+let pacmanwalking6 = document.querySelector("#pacman-walking6");
+
+function displayPacmanWalking(){
+
+    pacmanwalking.style.top = 50 + "px";
+    pacmanwalking.style.left = 420 + "px";
+    pacmanwalking2.style.top = 50 + "px";
+    pacmanwalking2.style.left = 440 + "px";
+    pacmanwalking3.style.top = 50 + "px";
+    pacmanwalking3.style.left = 460 + "px";
+    pacmanwalking4.style.top = 50 + "px";
+    pacmanwalking4.style.left = 480 + "px";
+    pacmanwalking5.style.top = 50 + "px";
+    pacmanwalking5.style.left = 500 + "px";
+    pacmanwalking6.style.top = 50 + "px";
+    pacmanwalking6.style.left = 520 + "px";
+
+}
+displayPacmanWalking();
 
 
 function displayScore (){
@@ -158,7 +182,7 @@ document.onkeydown = function (e) {
         winsong.play();
         winsong.volume = 0.5;
         yaysound.play();
-        yaysoung.volume = 0.1;
+        yaysoung.volume = 0.1; 
         
     }
 }
